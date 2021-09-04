@@ -1,0 +1,106 @@
+@media (max-width:1121px) {
+    .box-wraper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .seqtion-bg {
+        height: 100%;
+    }
+    .box {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:881px)  {
+    .navigation {
+        display: none;
+    }
+    .burger-icon {
+        display: block;
+        position: fixed;
+        margin-left: 80%;
+        margin-top: 1%;
+    }
+    .zetta-hottels {
+        margin-top: 1%;
+    }
+    .kafe {
+        height: 200px;
+    }
+}
+@media (max-width:809px) {
+   .text-box {
+       margin-right: 0px;
+   }
+}
+@media (max-width:809px) {
+    .waterfool {
+        display: none;
+    }
+}
+@media (max-width:700px) {
+    .about-h1 {
+        display: none;
+    }
+    .paragrap {
+        width: 300px;
+    }
+    .parag {
+        width: 300px;
+        margin-top: 10px;
+    }
+    .text-box-h1 {
+        font-size: 30px;
+        width: 300px;
+    }
+    .kafe {
+        max-width: 260px;
+        width: 100%;
+    }
+
+}
+@media (max-width:540px) {
+    .kafe {
+        display: none;
+    }
+    .room {
+        display: none;
+    }
+    .text-box {
+        padding-left: 100px;
+    }
+    .title-h1 {
+        max-width: 300px;
+        font-size: 30px;
+    }
+}
+@media (max-width:430px) {
+    .text-box {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width:380px) {
+  .paragrap {
+      width: 200px;
+      font-size: 10px
+  }
+  .parag {
+      width: 200px;
+      margin-top: 10px;
+      font-size: 10px
+  }
+  .button {
+    width: 100px;
+    height: 25px;
+  }
+  .text-box-h1 {
+    font-size: 20px;
+    width: 100px;
+   }
+   .title-h1 {
+     margin-left: 30px
+   }
+   .title-h6 {
+     margin-left: 30px
+   }
+}
